@@ -9,7 +9,7 @@
 | T-002 | 项目总管 | done | 项目总管 | `gaogao-prompt/`, `dist/`, Agent Office public files | 发布就绪审计完成；skill 名保持不变，发布包/manifest/report 已生成，最终 release audit PASS。 |
 | T-003 | 项目总管 | done | 项目总管 | `gaogao-prompt/`, `dist/`, installed skill copy, Agent Office public files | 全面检测完成；修复过期 OpenAI Images API reference 来源链接，重建发布包并复验 PASS。 |
 | T-004 | 项目总管 | done | 项目总管 | `C:\Users\79974\Documents\Codex\2026-06-08\goal-codex-codex\outputs\gaogao-office-skill\`, `C:\Users\79974\.codex\skills\gaogao-office\`, `outputs/gaogao-office-skill.zip`, Agent Office public files | 接手旧对话 `019ea501-0cf2-7c23-8505-699c13519519`；完成 GaoGao Office v1.1.1 任务板瘦身补丁、zip parity、安装版同步、commit `91fcf7e`、tag/push 和 GitHub release。 |
-| T-005 | 项目总管 | active | 项目总管 | `gaogao-prompt/`, `dist/`, root release docs, `C:\Users\79974\.codex\skills\gaogao-prompt\`, Agent Office public files, GitHub repo `designgaogao-star/gaogao-prompt` | GaoGao Prompt v1.0.0 GitHub 正式发布中；README/CHANGELOG/release notes 已准备，新包与 manifest 已刷新，本地/安装/解压 quick validate 已通过，等待 GitHub repo/tag/release 发布验证。 |
+| T-005 | 项目总管 | done | 项目总管 | `gaogao-prompt/`, `dist/`, root release docs, `C:\Users\79974\.codex\skills\gaogao-prompt\`, Agent Office public files, GitHub repo `designgaogao-star/gaogao-prompt` | GaoGao Prompt v1.0.0 GitHub 正式发布完成；commit `7773665`、tag `v1.0.0`、公开 repo 和 GitHub release 已验证，release asset SHA-256 匹配 manifest。 |
 
 ## 任务规则
 

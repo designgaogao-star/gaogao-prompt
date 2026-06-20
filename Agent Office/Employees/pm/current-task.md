@@ -1,7 +1,7 @@
 # Current Task
 
-status: active
-current: T-005 GaoGao Prompt v1.0.0 GitHub 正式发布；准备 GitHub repo/tag/release 发布与最终验证。
+status: waiting
+current: T-005 已完成；等待 BOSS 提出下一个 skill 设计、发布或维护需求。
 owner: 项目总管
 
 ## 必读

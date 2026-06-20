@@ -38,7 +38,7 @@
 
 ## 项目状态线索
 
-- 当前项目将作为 `designgaogao-star/gaogao-prompt` 的 GitHub 发布仓库；旧 `.git` 目录为空，需要初始化有效 Git 仓库。
+- 当前项目已作为 `designgaogao-star/gaogao-prompt` 的 GitHub 发布仓库；`main` 已推送，tag/release `v1.0.0` 已创建。
 - 当前核心产物已安装到 `C:\Users\79974\.codex\skills\gaogao-prompt`。
 - `gaogao-prompt` 本地副本和安装副本均已通过 `quick_validate.py` 校验。
 - 发布包解压后也通过 `quick_validate.py`；Windows 校验需使用 `python -X utf8` 或 `PYTHONUTF8=1`。

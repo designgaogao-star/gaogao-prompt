@@ -18,6 +18,7 @@
 - BOSS：批准按计划执行 `gaogao-prompt` 首个 GitHub 正式发版，默认公开仓库 `designgaogao-star/gaogao-prompt`、版本 `v1.0.0`、中英双语文案。
 - 项目总管：负责单窗口执行；不派新员工。写入范围包括 release docs、`dist/`、安装副本同步、Agent Office 公共记录和 GitHub 发布动作。
 - 验证要求：本地/安装副本/zip 解压副本 quick validate，zip 内容检查，manifest 哈希检查，GitHub repo/release/asset 检查。
+- 完成回执：公开仓库 `https://github.com/designgaogao-star/gaogao-prompt` 已创建，tag/release `v1.0.0` 已发布，asset `gaogao-prompt-v1.0.0.zip` 上传成功且 SHA-256 与 manifest 一致。
 
 ### 2026-06-09 T-002 发布审查
 
