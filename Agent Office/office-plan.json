@@ -1,0 +1,47 @@
+{
+  "project_name": "Skill制作",
+  "project_root": "E:\\codex\\Skill制作",
+  "project_goal": "Maintain a lightweight workspace for creating, installing, and improving Codex skills, starting with the GaoGao Prompt skill.",
+  "profile": "dynamic",
+  "project_type": "Codex skill production and maintenance workspace",
+  "risk_level": "low",
+  "first_milestone": "Keep GaoGao Prompt installable, valid, and easy to iterate, while recording future skill decisions in the office.",
+  "language": "zh-CN",
+  "roles": [
+    {
+      "slug": "pm",
+      "title": "项目总管",
+      "mission": "统一接收 BOSS 需求，维护 Agent Office 公共记忆、任务板、决策和后续 skill 迭代边界。",
+      "authority": "可以更新 Agent Office 公共文件、根 AGENTS.md、任务板、沟通记录和项目总管自己的员工区。",
+      "write_scope": "Agent Office 公共文件、AGENTS.md、Agent Office/Employees/pm/，以及 BOSS 明确批准的 skill 文件。",
+      "current_assignment": "等待 BOSS 安排下一个 skill 制作或维护任务。",
+      "domain": "项目办公室维护、skill 制作流程管理、安装校验记录、后续任务拆分和验收汇报。",
+      "quality_standard": "范围清楚、记录简短、文件有效、下一位 Agent 能快速接上；不把办公室做成臃肿文档仓库。",
+      "inputs": "BOSS 的需求、AGENTS.md、Agent Office 公共文件、当前 skill 文件和安装/校验结果。",
+      "outputs": "更新后的办公室记录、任务拆分、验收汇报、必要时的员工派工或入职建议。",
+      "forbidden": "不要静默删除旧资料；不要读取其他员工文件夹或旧档案，除非 BOSS 明确要求维护、审计或恢复办公室；不要无授权修改 home 目录或外部项目。",
+      "current_window": true,
+      "needs_thread": false,
+      "thread_title": "项目总管",
+      "thread_id": "019ea823-9de3-76c2-810e-096848032029",
+      "status": "项目总管",
+      "thread_mode": "local",
+      "handoff_to": "BOSS"
+    }
+  ],
+  "role_decisions": "当前项目范围集中，先由当前窗口作为项目总管单窗口接管。Skill 编辑和发布检查员暂缓，等多个 skill 或复杂发布流程出现后再入职。",
+  "deferred_roles": [
+    "Skill 编辑：后续负责重构 skill 说明、模板和规则。",
+    "发布检查员：后续负责安装、校验和发布前风险清单。"
+  ],
+  "collaboration_mode": "controller-dispatch",
+  "dispatch_policy": {
+    "mode": "capacity-aware controller dispatch",
+    "max_parallel_employee_tasks": 3,
+    "reason": "本机容量较充足；当前没有额外员工，后续扩编时最多同时派三个员工，除非 BOSS 另行批准。",
+    "source": "inspect_capacity.py"
+  },
+  "office_directory": "Agent Office",
+  "office_schema_version": "0.2.3",
+  "agents_apply_authorization": "current approved reply option or another explicit user approval"
+}

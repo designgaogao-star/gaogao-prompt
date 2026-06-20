@@ -1,0 +1,68 @@
+{
+  "skill_name": "gaogao-prompt",
+  "display_name": "GaoGao Prompt",
+  "version": "v1.0.0",
+  "release_date": "2026-06-20",
+  "github_repository": "https://github.com/designgaogao-star/gaogao-prompt",
+  "package": "dist/gaogao-prompt-v1.0.0.zip",
+  "package_sha256": "11fba2824a6e8af965864abe730d84d9c617c8ece718b7b3b747dedcb259e973",
+  "package_bytes": 29105,
+  "source_directory": "gaogao-prompt/",
+  "installed_directory": "C:/Users/79974/.codex/skills/gaogao-prompt/",
+  "validation": {
+    "local_quick_validate": "passed",
+    "installed_quick_validate": "passed",
+    "package_extract_quick_validate": "passed",
+    "office_validate": "passed with warnings",
+    "install_copy_hash_match": true,
+    "package_contents_clean": true,
+    "forbidden_auxiliary_docs_inside_skill": [],
+    "official_openai_docs_spot_check": "checked 2026-06-20 against Image generation guide and Images API reference; no behavioral rewrite required",
+    "encoding_requirement": "Run validation with UTF-8 mode on Windows because SKILL.md intentionally contains Chinese trigger terms: python -X utf8 ... or PYTHONUTF8=1.",
+    "local_quick_validate_command": "python -X utf8 C:/Users/79974/.codex/skills/.system/skill-creator/scripts/quick_validate.py E:/codex/Skill制作/gaogao-prompt",
+    "installed_quick_validate_command": "python -X utf8 C:/Users/79974/.codex/skills/.system/skill-creator/scripts/quick_validate.py C:/Users/79974/.codex/skills/gaogao-prompt",
+    "package_extract_quick_validate_command": "python -X utf8 C:/Users/79974/.codex/skills/.system/skill-creator/scripts/quick_validate.py <extracted>/gaogao-prompt"
+  },
+  "files": [
+    {
+      "path": "gaogao-prompt/agents/openai.yaml",
+      "bytes": 234,
+      "sha256": "aab453524b868bb7b29fd64a24c7cebd84ac3f4f8b14a7f1078f25001d208369"
+    },
+    {
+      "path": "gaogao-prompt/references/craft-rules.md",
+      "bytes": 8182,
+      "sha256": "63d33be8487b601d83db2541508a3b3d4e5347a1cf9df330e91225bc3a51fa86"
+    },
+    {
+      "path": "gaogao-prompt/references/examples.md",
+      "bytes": 5208,
+      "sha256": "c87e61755297de03985707f72d8e041dbdfdc9c0fa6d8c8e4e1ff7155a4811c1"
+    },
+    {
+      "path": "gaogao-prompt/references/model-settings.md",
+      "bytes": 5010,
+      "sha256": "829ab840fd65da8e2a43ed654e87d8e5f5599e49b6acbd05822b5336c138723c"
+    },
+    {
+      "path": "gaogao-prompt/references/prompt-recipes.md",
+      "bytes": 11885,
+      "sha256": "1b77904d5cb4065d0dc0ee8454f67b554e6a4b0508bc5a73f1bd54391bfd6453"
+    },
+    {
+      "path": "gaogao-prompt/references/style-vocabulary.md",
+      "bytes": 4302,
+      "sha256": "84c4003b6e3e3f497da5c092bab2bcdc06a6be02dbe35b6837867861875b0b28"
+    },
+    {
+      "path": "gaogao-prompt/references/templates.md",
+      "bytes": 12911,
+      "sha256": "17ac2403e545c041024df3a3c3c9d217ebe49b1ed373a036a70252cf21b048f0"
+    },
+    {
+      "path": "gaogao-prompt/SKILL.md",
+      "bytes": 13817,
+      "sha256": "cf3de4549a240e04157056979e4e31ef6cbb2890031d04a99757783154a45820"
+    }
+  ]
+}

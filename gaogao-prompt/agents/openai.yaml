@@ -1,0 +1,4 @@
+interface:
+  display_name: "GaoGao Prompt"
+  short_description: "Direct premium GPT Image prompts"
+  default_prompt: "Use $gaogao-prompt to turn my image idea into a copy-ready GPT Image prompt with settings and iteration knobs."
